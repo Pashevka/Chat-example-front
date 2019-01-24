@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+</head>
+
+<body>
+    <asp:Label style="display:none" ID="Who" runat="server" Text=""></asp:Label>
+    <form class="all-page block" id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="True" />
+        <div class="all-page">
+            <div class="container">
+                <div class="chat__container">
+                    <div class="left">
+                        <div class="left__header clearfix">
+                            <div class="left__header__avatar avatar"><img src="img/Avatar.png" alt="Avatar"></div>
+                            <div class="left__header__buttons">
+                                <img src="img/telephony.png" alt="telephony">
+                                <img class="left__header__telephony" src="img/more.png" alt="more">
+                            </div>
+                        </div>
+                        <div class="left__finder">
+                            <input type="text" placeholder="Поиск..." text="">
+                        </div>
+                        <div class="left__contacts">
+                            <div class="left__contacts__contact">
+                                <img src="img/Avatar.png" alt="" class="contact__avatar avatar">
+                                <div class="contact__content">
+                                    <div class="contact__content__name">Павел Степанов</div>
+                                    <div class="contact__content__lastMessage">Последнее сообщение...</div>
+                                </div>
+                                <div class="contact__time">11:28</div>
+                            </div>
+                            <div class="left__contacts__contact">
+                                <img src="img/Avatar.png" alt="" class="contact__avatar avatar">
+                                <div class="contact__content">
+                                    <div class="contact__content__name">Павел Степанов</div>
+                                    <div class="contact__content__lastMessage">Последнее сообщение...</div>
+                                </div>
+                                <div class="contact__time">11:28</div>
+                            </div>
+                            <div class="left__contacts__contact">
+                                <img src="img/Avatar.png" alt="" class="contact__avatar avatar">
+                                <div class="contact__content">
+                                    <div class="contact__content__name">Павел Степанов</div>
+                                    <div class="contact__content__lastMessage">Последнее сообщение...</div>
+                                </div>
+                                <div class="contact__time">11:28</div>
+                            </div>
+                            <div class="left__contacts__contact">
+                                <img src="img/Avatar.png" alt="" class="contact__avatar avatar">
+                                <div class="contact__content">
+                                    <div class="contact__content__name">Павел Степанов</div>
+                                    <div class="contact__content__lastMessage">Последнее сообщение...</div>
+                                </div>
+                                <div class="contact__time">11:28</div>
+                            </div>
+                            <div class="left__contacts__contact">
+                                <img src="img/Avatar.png" alt="" class="contact__avatar avatar">
+                                <div class="contact__content">
+                                    <div class="contact__content__name">Павел Степанов</div>
+                                    <div class="contact__content__lastMessage">Последнее сообщение...</div>
+                                </div>
+                                <div class="contact__time">11:28</div>
+                            </div>
+                            <div class="left__contacts__contact">
+                                <img src="img/Avatar.png" alt="" class="contact__avatar avatar">
+                                <div class="contact__content">
+                                    <div class="contact__content__name">Павел Степанов</div>
+                                    <div class="contact__content__lastMessage">Последнее сообщение...</div>
+                                </div>
+                                <div class="contact__time">11:28</div>
+                            </div>
+                            <div class="left__contacts__contact">
+                                <img src="img/Avatar.png" alt="" class="contact__avatar avatar">
+                                <div class="contact__content">
+                                    <div class="contact__content__name">Павел Степанов</div>
+                                    <div class="contact__content__lastMessage">Последнее сообщение...</div>
+                                </div>
+                                <div class="contact__time">11:28</div>
+                            </div>
+                            <div class="left__contacts__contact">
+                                <img src="img/Avatar.png" alt="" class="contact__avatar avatar">
+                                <div class="contact__content">
+                                    <div class="contact__content__name">Павел Степанов</div>
+                                    <div class="contact__content__lastMessage">Последнее сообщениеообщениеообщениеообщениеообщениеообщениеообщениеообщение...</div>
+                                </div>
+                                <div class="contact__time">11:28</div>
+                            </div>
+                            <div class="left__contacts__contact">
+                                <img src="img/Avatar.png" alt="" class="contact__avatar avatar">
+                                <div class="contact__content">
+                                    <div class="contact__content__name">Павел СтепановСтепановСтепановСтепанов</div>
+                                    <div class="contact__content__lastMessage">Последнее сообщение...</div>
+                                </div>
+                                <div class="contact__time">11:28</div>
+                            </div>
+                            <div class="left__contacts__contact">
+                                <img src="img/Avatar.png" alt="" class="contact__avatar avatar">
+                                <div class="contact__content">
+                                    <div class="contact__content__name">Павел Степанов</div>
+                                    <div class="contact__content__lastMessage">Последнее сообщение...</div>
+                                </div>
+                                <div class="contact__time">11:28</div>
+                            </div>
+                            <div class="left__contacts__contact">
+                                <img src="img/Avatar.png" alt="" class="contact__avatar avatar">
+                                <div class="contact__content">
+                                    <div class="contact__content__name">Павел Степанов</div>
+                                    <div class="contact__content__lastMessage">Последнее сообщение...</div>
+                                </div>
+                                <div class="contact__time">11:28</div>
+                            </div>
+                            <div class="left__contacts__contact">
+                                <img src="img/Avatar.png" alt="" class="contact__avatar avatar">
+                                <div class="contact__content">
+                                    <div class="contact__content__name">Павел Степанов</div>
+                                    <div class="contact__content__lastMessage">Последнее сообщение...</div>
+                                </div>
+                                <div class="contact__time">11:28</div>
+                            </div>
+                            <div class="left__contacts__contact">
+                                <img src="img/Avatar.png" alt="" class="contact__avatar avatar">
+                                <div class="contact__content">
+                                    <div class="contact__content__name">Павел Степанов</div>
+                                    <div class="contact__content__lastMessage">Последнее сообщение...</div>
+                                </div>
+                                <div class="contact__time">11:28</div>
+                            </div>
+                            <div class="left__contacts__contact">
+                                <img src="img/Avatar.png" alt="" class="contact__avatar avatar">
+                                <div class="contact__content">
+                                    <div class="contact__content__name">Павел Степанов</div>
+                                    <div class="contact__content__lastMessage">Последнее сообщение...</div>
+                                </div>
+                                <div class="contact__time">11:28</div>
+                            </div>
+                            <div class="left__contacts__contact">
+                                <img src="img/Avatar.png" alt="" class="contact__avatar avatar">
+                                <div class="contact__content">
+                                    <div class="contact__content__name">Павел Степанов</div>
+                                    <div class="contact__content__lastMessage">Последнее сообщение...</div>
+                                </div>
+                                <div class="contact__time">11:28</div>
+                            </div>
+                            <div class="left__contacts__contact">
+                                <img src="img/Avatar.png" alt="" class="contact__avatar avatar">
+                                <div class="contact__content">
+                                    <div class="contact__content__name">Павел Степанов</div>
+                                    <div class="contact__content__lastMessage">Последнее сообщение...</div>
+                                </div>
+                                <div class="contact__time">11:28</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="right__header">
+                            <img src="img/Avatar.png" alt="Avatar" class="right__avatar avatar">
+                            <div class="right__header__content">
+                                <div class="right__header__name">Яговкин Глеб</div>
+                                <div class="right__header__lastsee">Был в сети 6 минут назад</div>
+                            </div>
+                        </div>
+                        <div class="right__content">
+                            <div class="message__left message clearfix">
+                                <div class="message__container">
+                                    <div class="message__text">Вот небольшой пример</div>
+                                    <div class="message__time">07.06.18 10:37</div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="message__right message clearfix">
+                                <div class="message__container">
+                                    <div class="message__text">Вот небольшой пример</div>
+                                    <div class="message__time">07.06.18 10:37</div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="message__left message clearfix">
+                                <div class="message__container">
+                                    <div class="message__text">Вот небольшой пример достаточно большого сообщения. Двадцать семь, таскать мой прицеп</div>
+                                    <div class="message__time">07.06.18 10:37</div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="message__right message clearfix">
+                                <div class="message__container">
+                                    <a href="#" class="message__file message__inner">image24-123phone.png</a>
+                                    <div class="message__text">Вот небольшой пример достаточно большого сообщения. Двадцать семь, таскать мой прицеп</div>
+                                    <div class="message__time">07.06.18 10:37</div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="message__left message clearfix">
+                                <div class="message__container">
+                                    <div class="message__text">Вот небольшой пример достаточно большого сообщения. Двадцать семь, таскать мой прицеп</div>
+                                    <div class="message__time">07.06.18 10:37</div>
+                                    <a href="#" class="message__event message__inner">Событие №124 от 17го апреля</a>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="message__left message clearfix">
+                                <div class="message__container">
+                                    <div class="message__text">Вот небольшой пример</div>
+                                    <div class="message__time">07.06.18 10:37</div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="message__right message clearfix">
+                                <div class="message__container">
+                                    <div class="message__text">Вот небольшой пример</div>
+                                    <div class="message__time">07.06.18 10:37</div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="message__left message clearfix">
+                                <div class="message__container">
+                                    <div class="message__text">Вот небольшой пример достаточно большого сообщения. Двадцать семь, таскать мой прицеп</div>
+                                    <div class="message__time">07.06.18 10:37</div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="message__right message clearfix">
+                                <div class="message__container">
+                                    <a href="#" class="message__file message__inner">image24-123phone.png</a>
+                                    <div class="message__text">Вот небольшой пример достаточно большого сообщения. Двадцать семь, таскать мой прицеп</div>
+                                    <div class="message__time">07.06.18 10:37</div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="message__left message clearfix">
+                                <div class="message__container">
+                                    <div class="message__text">Вот небольшой пример достаточно большого сообщения. Двадцать семь, таскать мой прицеп</div>
+                                    <div class="message__time">07.06.18 10:37</div>
+                                    <a href="#" class="message__event message__inner">Событие №124 от 17го апреля</a>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="right__footer">
+                            <img src="img/clip.png" alt="Clip" class="right__footer__clip">
+                            <textarea name="senderArea" id="senderArea" placeholder="Напишите сообщение..." cols="30" rows="10" class="right__footer__writer"></textarea>
+                            <img src="img/paper-plane.png" alt="Plane" class="right__footer__send___btn">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="js/common.js"></script>
+</body>
+
+</html>
